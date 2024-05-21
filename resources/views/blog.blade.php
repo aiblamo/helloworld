@@ -2,7 +2,7 @@
 
 @section('content')
     
-    <h1>Listado</h1>
+    <h1>Listado de posts</h1>
     @foreach ($posts as $post)
     <p>
         <strong>{{ $post->id }}</strong>
